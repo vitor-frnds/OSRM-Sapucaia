@@ -1,7 +1,8 @@
-<p align="center">
-    <img src="https://raw.githubusercontent.com/aimclub/open-source-ops/7de1e1321389ec177f236d0a5f41f876811a912a/badges/ITMO_badge.svg" align="center" width="20%">
-</p>
 <p align="center"><h1 align="center">OSRM-SAPUCAIA</h1></p>
+<p align="center">
+	<a href="https://itmo.ru/"><img src="https://raw.githubusercontent.com/aimclub/open-source-ops/43bb283758b43d75ec1df0a6bb4ae3eb20066323/badges/ITMO_badge.svg"></a>
+	<a href="https://github.com/ITMO-NSS-team/Open-Source-Advisor"><img src="https://img.shields.io/badge/improved%20by-OSA-blue"></a>
+</p>
 
 ## Overview
 
@@ -39,24 +40,24 @@ In summary, the OSRM-Sapucaia repository integrates databases, models, interacti
 The OSRM-Sapucaia codebase employs several algorithms to analyze and optimize waste management routes, primarily using Monte Carlo simulations. Here’s a breakdown of the key algorithms and their functions:
 
 1. **Monte Carlo Simulation**
-Role**: This algorithm is used to simulate various waste collection scenarios by generating random samples of potential routes and outcomes. 
-Function**: It helps in exploring a wide range of possibilities in waste collection strategies, allowing the analysis of different factors that could affect efficiency, such as traffic patterns, collection times, and vehicle capacities. By running numerous simulations, it quantifies uncertainties and provides insights into the most effective routing options.
+**Role**: This algorithm is used to simulate various waste collection scenarios by generating random samples of potential routes and outcomes. 
+**Function**: It helps in exploring a wide range of possibilities in waste collection strategies, allowing the analysis of different factors that could affect efficiency, such as traffic patterns, collection times, and vehicle capacities. By running numerous simulations, it quantifies uncertainties and provides insights into the most effective routing options.
 
 2. **Routing Optimization Algorithm**
-Role**: This algorithm focuses on determining the most efficient routes for waste collection vehicles.
-Function**: It analyzes the data collected from various sources (like GPS and traffic patterns) to create optimized paths that minimize travel time and distance. This is crucial for reducing operational costs and improving service delivery in waste management.
+**Role**: This algorithm focuses on determining the most efficient routes for waste collection vehicles.
+**Function**: It analyzes the data collected from various sources (like GPS and traffic patterns) to create optimized paths that minimize travel time and distance. This is crucial for reducing operational costs and improving service delivery in waste management.
 
 3. **Data Collection and Processing Algorithms**
-Role**: These algorithms gather and process real-time data from various sources, including GPS devices and traffic reports.
-Function**: They ensure that the routing algorithms have access to accurate and up-to-date information, which is essential for making informed decisions about waste collection routes. This data-driven approach enhances the reliability of the simulations and optimizations.
+**Role**: These algorithms gather and process real-time data from various sources, including GPS devices and traffic reports.
+**Function**: They ensure that the routing algorithms have access to accurate and up-to-date information, which is essential for making informed decisions about waste collection routes. This data-driven approach enhances the reliability of the simulations and optimizations.
 
 4. **Traffic Pattern Simulation**
-Role**: This algorithm simulates traffic conditions to understand how they impact waste collection routes.
-Function**: By modeling different traffic scenarios, it helps predict how congestion might affect travel times. This information is vital for planning routes that avoid delays and ensure timely waste collection.
+**Role**: This algorithm simulates traffic conditions to understand how they impact waste collection routes.
+**Function**: By modeling different traffic scenarios, it helps predict how congestion might affect travel times. This information is vital for planning routes that avoid delays and ensure timely waste collection.
 
 5. **Scenario Testing Algorithm**
-Role**: This algorithm tests various routing scenarios to evaluate their effectiveness.
-Function**: It allows for the comparison of different strategies under varying conditions, helping to identify the best practices for waste collection. This iterative testing process ensures that the routing system can adapt to real-world changes and challenges.
+**Role**: This algorithm tests various routing scenarios to evaluate their effectiveness.
+**Function**: It allows for the comparison of different strategies under varying conditions, helping to identify the best practices for waste collection. This iterative testing process ensures that the routing system can adapt to real-world changes and challenges.
 
 **Summary**
 Together, these algorithms form a comprehensive framework for analyzing and optimizing waste management routes. By leveraging Monte Carlo simulations and real-time data, the OSRM-Sapucaia codebase enhances decision-making, improves operational efficiency, and contributes to better environmental management practices.
